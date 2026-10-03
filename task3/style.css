@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(221, 144, 37);
+}
+
+.head{
+    color:darkblue;
+}
+
+#bglime{
+    background-color: rgb(159, 243, 50);
+}
+
+p{
+    color:aliceblue;
+}
+
+#para{
+    color:rgb(176, 234, 89);
+}
+
+ul{
+    color:white;
+}
+span[title="here"]{
+    color:black;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+
+span[title ="here1"]{
+    color:black;
+    background-color: purple;
+    text-decoration: underline;
+}
