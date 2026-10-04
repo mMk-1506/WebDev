@@ -1,35 +1,52 @@
-body{
-    background-color: rgb(221, 144, 37);
+body {
+    background-color: rgb(255, 122, 79);
 }
 
-.head{
-    color:darkblue;
+.head {
+    color: darkblue;
 }
 
-#bglime{
-    background-color: rgb(159, 243, 50);
+#bglime {
+    background-color: lime;
 }
 
-p{
-    color:aliceblue;
+#bglime span {
+    color: red;
 }
 
-#para{
-    color:rgb(176, 234, 89);
+p {
+    color: white;
 }
 
-ul{
-    color:white;
+#para {
+    color: green;
 }
-span[title="here"]{
-    color:black;
+
+p span {
+    color: black;
+    font-size: 24px;
+}
+
+ul {
+    color: white;
+}
+
+ul li:first-child span {
+    color: black;
     background-color: yellow;
     text-decoration: underline;
 }
 
-
-span[title ="here1"]{
-    color:black;
+ul li:nth-child(2) span {
+    color: black;
     background-color: purple;
     text-decoration: underline;
+}
+
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
+    color: red;
 }
