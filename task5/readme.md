@@ -68,7 +68,7 @@ Common values:
 
 **Project usage:** Clear is not required because the project does not use the float property.
 
-### I. CSS Hover Effects
+### F. CSS Hover Effects
 The `:hover` pseudo-class applies styles when the pointer is over an element.
 
 **Project usage:** Navigation links change color on hover, and the booking button changes its background color when hovered.
