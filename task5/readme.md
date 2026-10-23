@@ -73,5 +73,5 @@ The `:hover` pseudo-class applies styles when the pointer is over an element.
 
 **Project usage:** Navigation links change color on hover, and the booking button changes its background color when hovered.
 
-## 7. Conclusion
+## 4. Conclusion
 This project demonstrates the use of HTML, CSS layout techniques, viewport units, the box model, typography, and hover effects to create a laundry services hero section. It also documents important CSS concepts such as display, positioning, overflow, float, and clear for further learning.
