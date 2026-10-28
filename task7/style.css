@@ -1,0 +1,264 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Whole page */
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #4b5965;
+}
+
+/* Navigation bar */
+.navbar {
+    width: 100%;
+    height: 12vh;
+    padding: 0 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Logo on the left */
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4b5965;
+}
+
+/* Navigation links in the middle */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #687782;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    color: #08a9f5;
+}
+
+/* Username on the right */
+.username {
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: #e8f7ff;
+
+    color: #08a9f5;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Main hero section */
+.hero {
+    width: 100%;
+    height: 88vh;
+    padding: 8vh 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Left side: heading, description, button */
+.hero-left {
+    width: 50%;
+    padding-right: 3vw;
+}
+
+.hero-left h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #4b5965;
+}
+
+.hero-left h1 span {
+    color: #08a9f5;
+}
+
+.hero-left p {
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+    max-width: 38vw;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #9aa4ad;
+}
+
+/* Booking button */
+.book-btn {
+    padding: 2vh 2.5vw;
+    border: none;
+    border-radius: 12px;
+
+    background-color: #16a9f5;
+    color: white;
+
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background-color: #0785cb;
+}
+
+/* Right side: laundry image */
+.hero-right {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    width: 100%;
+    height: 55vh;
+    object-fit: contain;
+}
+
+/* //tablets view */
+@media (min-width: 601px) and(max-width: 1024px) {
+    .navbar {
+        height: 10vh;
+        padding: 0 5vw;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .nav-links {
+        gap: 1.5vw;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+
+    .username {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    .hero {
+        min-height: 90vh;
+        padding: 5vh 5vw;
+    }
+
+    .hero-left {
+        width: 55%;
+        padding-right: 2vw;
+    }
+
+    .hero-left h1 {
+        font-size: 2rem;
+        line-height: 1.35;
+    }
+
+    .hero-left p {
+        max-width: 100%;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .book-btn {
+        padding: 15px 25px;
+        font-size: 0.9rem;
+    }
+
+    .hero-right {
+        width: 45%;
+    }
+
+    .hero-right img {
+        width: 100%;
+        height: 45vh;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Navbar */
+    .navbar {
+        height: 10vh;
+        padding: 0 5vw;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    /* Hide navigation links on mobile */
+    .nav-links {
+        display: none;
+    }
+
+    .username {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    /* Stack text and image vertically */
+    .hero {
+        min-height: 90vh;
+        padding: 4vh 5vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 4vh;
+    }
+
+    .hero-left {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .hero-left h1 {
+        font-size: 1.7rem;
+        line-height: 1.3;
+    }
+
+    .hero-left p {
+        max-width: 100%;
+        margin-top: 1.5vh;
+        margin-bottom: 2.5vh;
+
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .book-btn {
+        padding: 15px 25px;
+        font-size: 0.9rem;
+    }
+
+    .hero-right {
+        width: 100%;
+    }
+
+    .hero-right img {
+        width: 100%;
+        height: 38vh;
+    }
+}
