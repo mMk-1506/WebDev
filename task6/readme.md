@@ -22,8 +22,8 @@ Flexbox is a CSS layout method used to arrange elements along a row or column.
 
 Important properties:
 - `display: flex` — enables Flexbox.
-- `justify-content` — aligns items along the main axis.
-- `align-items` — aligns items along the cross axis.
+- `justify-content` — aligns items along the main axis.(x-axis)
+- `align-items` — aligns items along the cross axis.(y-axis)
 - `flex-direction` — sets the direction of the items.
 - `gap` — adds space between items.
 
